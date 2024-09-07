@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Som misterioso na floresta</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="imagem de um campo ao amanhecer">
+            <p>É uma manhã fresca, e você está caminhando em um campo perto de sua casa. De repente, você ouve um som estranho vindo da floresta ao lado. Parece um chamado, quase como se alguém ou algo estivesse tentando chamar sua atenção. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Seguir o som e entrar na floresta</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar o som e continuar sua caminhada</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>Você decide seguir o som e entra na floresta. Conforme avança entre as árvores, o som fica mais claro e parece estar vindo de uma pequena clareira adiante. Ao chegar, você vê uma figura misteriosa à sua frente. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Conversar com a figura</button>
+            <button class="btn-proximo" data-proximo="4">Observar a figura à distância</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <p>Você decide ignorar o som e continuar caminhando pelo campo. No entanto, ao caminhar mais adiante, vê algo brilhando entre as flores. Parece um objeto incomum. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="5">Pegar o objeto brilhante</button>
+            <button class="btn-proximo" data-proximo="6">Deixar o objeto e seguir em frente</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <p>Você se aproxima da figura misteriosa, e ela se vira para você. É uma pessoa velha com um olhar profundo, segurando um bastão feito de madeira retorcida. "Estou esperando por você", diz ela. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="7">Perguntar por que ela está esperando você</button>
+            <button class="btn-proximo" data-proximo="8">Ficar em silêncio e ouvir</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <p>Você decide observar a figura à distância. Ela parece estar falando com alguém, mas não há mais ninguém ali. De repente, a figura olha diretamente para você, como se soubesse que você está observando. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Ir até a figura e falar com ela</button>
+            <button class="btn-proximo" data-proximo="9">Sair da clareira discretamente</button>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <p>Você pega o objeto e percebe que é um medalhão antigo com símbolos estranhos. Ao tocá-lo, você sente uma energia correr pelas suas mãos, como se ele tivesse um poder oculto. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="10">Colocar o medalhão no pescoço</button>
+            <button class="btn-proximo" data-proximo="11">Guardar o medalhão no bolso e continuar caminhando</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <p>Você decide não tocar no objeto e continua sua caminhada. No entanto, uma sensação de que perdeu algo importante te acompanha pelo resto do caminho. Talvez houvesse mais naquele objeto do que parecia.</p>
+        </div>
+        
+        <div class="passo" id="passo-7">
+            <p>Você pergunta por que ela está esperando por você. "Há um destino reservado para você", ela diz, entregando um mapa antigo. "Siga este mapa, e você encontrará o que procura, mesmo que ainda não saiba o que é." O que você faz?</p>
+            <button class="btn-proximo" data-proximo="12">Aceitar o mapa e seguir a jornada</button>
+            <button class="btn-proximo" data-proximo="13">Recusar o mapa e sair da floresta</button>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <p>Você fica em silêncio e a escuta. Ela começa a falar sobre antigas profecias e jornadas de autodescoberta. "O caminho está à sua frente, se tiver coragem de seguir", ela diz. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="12">Aceitar a jornada</button>
+            <button class="btn-proximo" data-proximo="13">Agradecer e sair da floresta</button>
+        </div>
+        
+        <div class="passo" id="passo-9">
+            <p>Você decide sair da clareira discretamente, mas enquanto caminha de volta para o campo, sente que alguém ou algo está te observando das sombras. Uma sensação de inquietação cresce em você. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="14">Voltar para ver quem está te observando</button>
+            <button class="btn-proximo" data-proximo="6">Caminhar mais rápido e sair da floresta</button>
+        </div>
+        
+        <div class="passo" id="passo-10">
+            <p>Ao colocar o medalhão no pescoço, você sente uma conexão imediata com algo maior. Sua visão começa a mudar, revelando formas e figuras ocultas ao seu redor. Você foi transportado para outra realidade, cheia de mistérios e magia.</p>
+        </div>
+        
+        <div class="passo" id="passo-11">
+            <p>Você guarda o medalhão no bolso e continua sua caminhada. Mais tarde, ao examinar o medalhão, percebe que ele pode ser a chave para descobrir um grande segredo. Você começa a planejar como usá-lo.</p>
+        </div>
+        
+        <div class="passo" id="passo-12">
+            <p>Você aceita o mapa e decide seguir a jornada. Conforme avança, o mapa revela caminhos escondidos e segredos antigos. Sua aventura está apenas começando, e o destino te espera.</p>
+        </div>
+        
+        <div class="passo" id="passo-13">
+            <p>Você recusa o mapa e decide voltar para a segurança da sua rotina. No entanto, algo dentro de você se pergunta o que teria acontecido se você tivesse seguido aquele caminho misterioso.</p>
+        </div>        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
